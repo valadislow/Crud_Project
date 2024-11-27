@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+    justify-content: center; /* Center the child horizontally */
+    align-items: center; /* Center the child vertically */
+}
+
+nav{
+    width: all;
+    background-color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navdiv{
+    display: flex;
+    flex: center;
+    justify-content: space-between;
+}
+nav a{
+    color: white;
+}
+li{
+    list-style: none;
+    display: inline-block
+}
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 25px;
+}
+h2{
+    margin: -0.5px;
+}
+*{
+    text-decoration: none;
+}
+.logo img {
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    object-fit: cover; /* Keep the image centered */
+    object-position: center;
+    transition: box-shadow 0.3s ease; /* Smooth transition for the hover effect */
+}
+
+.wrapper{
+    flex-wrap: wrap;
+    margin: 100px;
+    display: flex;
+    gap: 15px;
+    justify-content: center; 
+}
+.taskBox{
+    justify-content: center; 
+    text-align: center;
+    width: 150px;
+    height: 180px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* color: white; */
+}
+
+.createInputs{
+    margin: 20px;
+}
+
+.createButton {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.read {
+    width: 100px;
+}
