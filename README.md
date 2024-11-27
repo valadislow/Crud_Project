@@ -1,6 +1,5 @@
 # Crud_Project
 
-
 I think that was one of the newest parts of the code to understand how to dynamically handle crud_operations
 
 $(document).on("click", ".crud_buttons button", (e) => {
@@ -8,10 +7,10 @@ $(document).on("click", ".crud_buttons button", (e) => {
     handler(target[0]);
 });
 
-
-1. Create
+#1. Create
 Process:
 
+Ceating new task, to pop up on the list of tasks 
 Dynamically generate input fields for entering a new task.
 Push the new task into the Tasks array and render it in the UI.
 Re-enable the Create Task button after adding the task.
@@ -66,10 +65,11 @@ const createTask = (event) => {
         alert("The new Task was successfully created!");
     });
 };
-2. Read
+
+#2. Read
 Process:
 
-Fetch and display the details of a selected task.
+Display the details about the each task on the webpage
 Show the task description within the UI dynamically.
 Code:
 
@@ -85,9 +85,9 @@ const viewHandler = (index) => {
     });
 };
 
-3. Update
-Process:
+#3. Update
 
+Ability to update each task with new infformation or to correct it
 Display pre-filled input fields for editing a task.
 Update both the Tasks array and the UI based on new input values.
 Code:
@@ -137,10 +137,11 @@ const updateHandler = (index) => {
         alert("Task updated successfully!");
     });
 };
-4. Delete
+
+#4. Delete
 Process:
 
-Remove the selected task from the Tasks array and its associated DOM element.
+removing the whole task from the webpage and from the array
 Notify the user that the task has been deleted.
 Code:
 
