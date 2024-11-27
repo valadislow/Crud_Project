@@ -1,6 +1,7 @@
 # Crud_Project
 
 I think that was one of the newest parts of the code to understand how to dynamically handle crud_operations
+
 $(document).on("click", ".crud_buttons button", (e) => {
     const target = $(e.target);
     handler(target[0]);
