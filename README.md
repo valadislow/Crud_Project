@@ -7,7 +7,7 @@ $(document).on("click", ".crud_buttons button", (e) => {
     handler(target[0]);
 });
 
-#1. Create
+# 1. Create
 Process:
 
 Ceating new task, to pop up on the list of tasks 
@@ -66,7 +66,7 @@ const createTask = (event) => {
     });
 };
 
-#2. Read
+# 2. Read
 Process:
 
 Display the details about the each task on the webpage
@@ -85,7 +85,7 @@ const viewHandler = (index) => {
     });
 };
 
-#3. Update
+# 3. Update
 
 Ability to update each task with new infformation or to correct it
 Display pre-filled input fields for editing a task.
@@ -138,7 +138,7 @@ const updateHandler = (index) => {
     });
 };
 
-#4. Delete
+# 4. Delete
 Process:
 
 removing the whole task from the webpage and from the array
